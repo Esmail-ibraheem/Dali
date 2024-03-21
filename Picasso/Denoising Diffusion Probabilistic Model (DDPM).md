@@ -170,12 +170,12 @@ $$
 
 In other words:
 
-- we take a random sample $x_0$​ from the real unknown and possibily complex data distribution $q(x_0​)$
+- we take a random sample $x_0$​ from the real unknown and possibly complex data distribution $q(x_0​)$
 - we sample a noise level $t$ uniformally between $1$ and $T$ (i.e., a random time step)
 - we sample some noise from a Gaussian distribution and corrupt the input by this noise at level $t$ (using the nice property defined above)
 - the neural network is trained to predict this noise based on the corrupted image $x_t$​ (i.e. noise applied on $x_0$​ based on known schedule $β_t$​)
 
-> [!Hint] In reality, all of this is done on batches of data, as one uses stochastic gradient descent to optimize neural networks.
+> [!Hint] In reality, all of this is done on batches of data, as one uses stochastic gradient descent to optimize neural networks, to understand why we use SGD over BGD, read this section [[#Stochastic Gradient Descent vs Batch Gradient Descent]]. 
 
 1: repeat
 2: $x_0 \sim q(x_0)$ We take a sample from our dataset.
@@ -187,6 +187,34 @@ In other words:
 
 ### Sampling algorithm:
 ![[Pasted image 20240317222050.png]]
+
+---
+
+### Stochastic Gradient Descent vs Batch Gradient Descent:
+
+![[variations_comparison.png]]
+
+1. **Batch Gradient Descent (BGD)**:
+    
+    - In BGD, the model parameters are updated using the gradients computed over the entire dataset.
+    - This means that for each iteration, the gradients are calculated by considering the entire dataset, leading to potentially slower updates.
+    - BGD ensures a more precise estimation of the gradient, as it considers the complete dataset.
+    - However, in the context of large datasets, BGD can be computationally expensive and memory-intensive, as it requires storing and processing the entire dataset at once.
+2. **Stochastic Gradient Descent (SGD)**:
+    
+    - In SGD, the model parameters are updated using the gradient computed from a single randomly chosen data point or a small subset of data points (mini-batch).
+    - This results in faster updates since only a small portion of the dataset is considered for each iteration.
+    - SGD introduces more noise in the parameter updates due to its reliance on individual or small subsets of data points.
+    - Despite the noise, SGD can escape local minima more easily and can converge faster, especially in noisy or high-dimensional datasets.
+    - Additionally, SGD is less memory-intensive as it only requires processing a single data point or a small subset at a time.
+
+In the context of diffusion models, SGD is often preferred over BGD for several reasons:
+
+- **Efficiency**: Diffusion models often deal with large datasets or high-dimensional data. SGD's efficiency in terms of memory usage and computational speed makes it more practical for these scenarios compared to BGD.
+    
+- **Robustness to Noise**: Diffusion models often involve noisy data or complex interactions. SGD's stochastic nature helps it navigate through noise and converge to a reasonable solution.
+    
+- **Scalability**: As datasets grow larger, the computational and memory requirements of BGD become prohibitive. SGD's ability to handle large datasets in a more scalable manner makes it a preferred choice.
 
 ---
 
