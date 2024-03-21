@@ -158,7 +158,7 @@ L_0 &= - \log p_\theta(\mathbf{x}_0 \vert \mathbf{x}_1)
 \end{aligned}
 $$
 
->[!Note] ###### *for better understanding how the derivations happen, see the handwritten derivation * 
+>[!Note] ###### *for better understanding how the derivations happen, see the [[#Handwritten Derivations]] * 
 
 ---
 
@@ -339,3 +339,16 @@ In the context of the allegory, the VAE's goal is akin to the prisoners' desire 
 
 ---
 
+#### Handwritten Derivations:
+
+- **Derivate the Variational autoencoder (the Negative ELBO):**
+
+![[2.jpg]]
+
+- **Derivate the $L_T + L_t-1 + L_0$: **
+
+![[1.jpg]]
+
+- **Forward and Reverse Process:**
+
+![[3.jpg]]
