@@ -1,2 +1,2 @@
 # DDPM
-Denoising Diffusion Probabilistic Model from scratch using pytorch (In Progress, Not completed yet).
+Denoising Diffusion Probabilistic Model from scratch using pytorch (**In Progress, Not completed yet**).
