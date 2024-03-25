@@ -1,5 +1,5 @@
-# DDPM
-Denoising Diffusion Probabilistic Model from scratch using pytorch (**In Progress, Not completed yet**).
+# Picasso
+Denoising Diffusion Probabilistic Model, and Stable diffusion from scratch using pytorch (**In Progress, Not completed yet**).
 
 ---
 
