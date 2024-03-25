@@ -5,7 +5,7 @@ Denoising Diffusion Probabilistic Model from scratch using pytorch (**In Progres
 
 ### Citations
 
-```bash
+```BibTeX 
 @misc{ho2020denoising,
     title   = {Denoising Diffusion Probabilistic Models},
     author  = {Jonathan Ho and Ajay Jain and Pieter Abbeel},
@@ -17,7 +17,7 @@ Denoising Diffusion Probabilistic Model from scratch using pytorch (**In Progres
 ```
 
 
-```bash
+```BibTeX 
 @misc{rombach2021highresolution,
       title={High-Resolution Image Synthesis with Latent Diffusion Models}, 
       author={Robin Rombach and Andreas Blattmann and Dominik Lorenz and Patrick Esser and Björn Ommer},
