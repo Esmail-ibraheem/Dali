@@ -3,7 +3,7 @@ Denoising Diffusion Probabilistic Model from scratch using pytorch (**In Progres
 
 ---
 
-### Citations
+## Citations
 
 ```BibTeX 
 @misc{ho2020denoising,
