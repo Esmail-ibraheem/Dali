@@ -1,4 +1,4 @@
-# Picasso
+# Picasso 🧨
 Denoising Diffusion Probabilistic Model, and Stable diffusion from scratch using pytorch (**In Progress, Not completed yet**).
 
 ---
