@@ -1,5 +1,5 @@
 # Picasso 🧨
-Denoising Diffusion Probabilistic Models, and High-Resolution Image Synthesis with Latent Diffusion Models, papers implementation from scratch using pytorch (## **In Progress, Not completed yet**).
+Denoising Diffusion Probabilistic Models, and High-Resolution Image Synthesis with Latent Diffusion Models, papers implementation from scratch using pytorch.
 
 ---
 
