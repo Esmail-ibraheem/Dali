@@ -1,6 +1,6 @@
 # Picasso 👨‍🎨
 <p align="center">
-  <img src="https://github.com/Esmail-ibraheem/Picasso/blob/main/picass.jpg" alt="Your Image Description" width="550" height=500">
+  <img src="https://github.com/Esmail-ibraheem/Picasso/blob/main/picass.jpg" alt="Your Image Description" width="450" height=400">
 </p>
 
 Denoising Diffusion Probabilistic Models 🎨, and High-Resolution Image Synthesis with Latent Diffusion Models 🧨, papers implementation from scratch using pytorch.
