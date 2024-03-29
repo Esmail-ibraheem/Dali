@@ -1,7 +1,8 @@
 # Picasso 👨‍🎨
 <p align="center">
-  <img src="👨‍🎨" alt="Sublime's custom image"/>
+  <img src="https://github.com/Esmail-ibraheem/Picasso/blob/main/picasso.jpg" alt="Your Image Description" style="max-width: 100%;">
 </p>
+
 
 Denoising Diffusion Probabilistic Models 🎨, and High-Resolution Image Synthesis with Latent Diffusion Models 🧨, papers implementation from scratch using pytorch.
 
