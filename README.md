@@ -1,6 +1,6 @@
 # Picasso 👨‍🎨
 <p align="center">
-  <img src="https://github.com/Esmail-ibraheem/Picasso/blob/main/picasso.jpg" alt="Your Image Description" style="max-width: 10%;">
+  <img src="https://github.com/Esmail-ibraheem/Picasso/blob/main/picasso.jpg" alt="Your Image Description" width="300" height="200">
 </p>
 
 
