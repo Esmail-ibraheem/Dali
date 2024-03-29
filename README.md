@@ -1,6 +1,6 @@
 # Picasso 👨‍🎨
 <p align="center">
-  <img src="https://github.com/Esmail-ibraheem/Picasso/blob/main/emoji.jpg" alt="Your Image Description" width="500" height=500">
+  <img src="https://github.com/Esmail-ibraheem/Picasso/blob/main/emoji.jpg" alt="Your Image Description" width="550" height=500">
 </p>
 
 
