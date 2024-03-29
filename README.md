@@ -1,4 +1,6 @@
 # Picasso 👨‍🎨
+![picasso](https://github.com/Esmail-ibraheem/Picasso/assets/113830751/da7feefe-da66-4758-a651-0a4c1d519f83)
+
 Denoising Diffusion Probabilistic Models 🎨, and High-Resolution Image Synthesis with Latent Diffusion Models 🧨, papers implementation from scratch using pytorch.
 
 ---
