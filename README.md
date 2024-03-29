@@ -3,7 +3,7 @@
   <img src="https://github.com/Esmail-ibraheem/Picasso/blob/main/p2.jpg" alt="Your Image Description" width="550" height=500">
 </p>
 
-<p align="left">
+<p align="top-left">
   <img src="https://github.com/Esmail-ibraheem/Picasso/blob/main/picasso.jpg" alt="Your Image Description" width="500" height=500">
 </p>
 
