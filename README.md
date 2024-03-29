@@ -3,8 +3,8 @@
   <img src="https://github.com/Esmail-ibraheem/Picasso/blob/main/p2.jpg" alt="Your Image Description" width="550" height=500">
 </p>
 
-<p align="center">
-  <img src="https://github.com/Esmail-ibraheem/Picasso/blob/main/picasso.jpg" alt="Your Image Description" width="550" height=500">
+<p align="left">
+  <img src="https://github.com/Esmail-ibraheem/Picasso/blob/main/picasso.jpg" alt="Your Image Description" width="500" height=500">
 </p>
 
 Denoising Diffusion Probabilistic Models 🎨, and High-Resolution Image Synthesis with Latent Diffusion Models 🧨, papers implementation from scratch using pytorch.
