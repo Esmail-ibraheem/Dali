@@ -1,7 +1,7 @@
 # Picasso 👨‍🎨
 <p align="center">
-  <img src="![picasso](https://github.com/Esmail-ibraheem/Picasso/assets/113830751/88f21446-852f-4923-9fc8-734b69339260)
-" alt="">
+  <img src="![image](https://github.com/Esmail-ibraheem/Picasso/assets/113830751/139a5290-e0c3-4a4e-a94d-d6ea1819e9d2)
+" />
 </p>
 
 
