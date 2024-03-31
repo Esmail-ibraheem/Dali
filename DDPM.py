@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn 
 from torch.nn import functional as F    
 import numpy as np   
-import math 
+import math  
 
 class GaussingDistribution:
     def __init__(self, parameters: torch.Tensor) -> None:
