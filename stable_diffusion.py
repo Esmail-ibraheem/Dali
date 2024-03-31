@@ -73,7 +73,7 @@ class DDPMSampler:
         predicate_previous_samples = predicate_previous_samples + variance
         return predicate_previous_samples
 
-    def add_noise(self, original_samples: torch.FloatTensor, timestep: torch.IntTensor):
+    def add_noise(self, original_samples: torch.FloatTensor, timestep: torch.IntTensor) torch.FloatTensor:
         alphas_cumlative_product_t = self.alphas_cumlative_product.to(device = original_samples.device, dtype = original_samples.dtype) 
         timestep = timestep.to(original_samples.device)
         alphas_cumlative_product_t_squaroot = alphas_cumlative_product_t[timestep] ** 0.5 
