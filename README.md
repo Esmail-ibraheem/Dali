@@ -18,10 +18,7 @@ Denoising Diffusion Probabilistic Models 🎨, and High-Resolution Image Synthes
     archivePrefix = {arXiv},
     primaryClass = {cs.LG}
 }
-```
 
-
-```BibTeX 
 @misc{rombach2021highresolution,
       title={High-Resolution Image Synthesis with Latent Diffusion Models}, 
       author={Robin Rombach and Andreas Blattmann and Dominik Lorenz and Patrick Esser and Björn Ommer},
@@ -41,4 +38,7 @@ Denoising Diffusion Probabilistic Models 🎨, and High-Resolution Image Synthes
   year = {2022},  
   copyright = {arXiv.org perpetual, non-exclusive license}
 }
+
 ```
+
+
