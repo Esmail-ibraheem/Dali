@@ -1,4 +1,4 @@
-# Picasso 👨‍🎨
+# Dalí 👨‍🎨
 <p align="center">
   <img src="https://github.com/Esmail-ibraheem/Picasso/blob/main/picass.jpg" alt="Your Image Description" width="350" height=300">
 </p>
