@@ -3,7 +3,7 @@
   <img src="https://github.com/Esmail-ibraheem/Dali/blob/main/Dali.jpg" alt="Your Image Description" width="300" height=300">
 </p>
 
-<p align="center">
+<p align="left">
   "The State of Art"
 </p>
 
