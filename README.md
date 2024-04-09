@@ -3,27 +3,6 @@
   <img src="https://github.com/Esmail-ibraheem/Dali/blob/main/Dali.jpg" alt="Your Image Description" width="300" height=300">
 </p>
 
-<!DOCTYPE html>
-<html lang="ar">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arabic Font Example</title>
-<style>
-  body {
-    font-family: 'https://github.com/Esmail-ibraheem/Dali/blob/main/alfont_com_ArefRuqaa-Bold.ttf', sans-serif; /* Replace 'Your Arabic Font' with the name of the font you chose */
-    direction: rtl; /* Set text direction to right-to-left for Arabic */
-  }
-</style>
-</head>
-<body>
-
-<h1>دالي</h1>
-
-</body>
-</html>
-
-
 Denoising Diffusion Probabilistic Models 🎨, and High-Resolution Image Synthesis with Latent Diffusion Models 🧨, papers implementation from scratch using pytorch.
 
 ---
