@@ -1,8 +1,4 @@
 # Dalí 👨‍🎨
-
-<p align="center">
-  "The State of Art"
-</p>
 <p align="center">
   <img src="https://github.com/Esmail-ibraheem/Dali/blob/main/Dali.jpg" alt="Your Image Description" width="300" height=300">
 </p>
