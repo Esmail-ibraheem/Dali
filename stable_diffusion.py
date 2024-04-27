@@ -89,14 +89,3 @@ class DenoisingDiffusionProbabilisticModelSampler:
         noise = torch.randn(original_samples.shape, generator=self.generator, device=device, dtype=dtype)
         noisy_samples = alphas_product_timestep_squaroot * original_samples + alphas_product_timestep_squaroot_mins * noise
         return noisy_samples 
-
-class DiffusionTransformer:
-    pass
-class BasicTransformer:
-    pass 
-class SpatialTransformer:
-    pass 
-class SelfAttention:
-    pass 
-class CrossAttention:
-    pass 
